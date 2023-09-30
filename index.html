@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form!</title>    
+    <link rel="stylesheet" href="new.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="body">
+    <div class="container">
+        <h1>Cultural Club Registration Form!</h1>
+        <img src="school logo.gif" class="logo">
+        <div class="form">
+            <form action="register" method="post">
+                <div class="display">
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                    <input type="text" class="input" name ="fst_name" placeholder="First Name" >
+                    <Span>
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                        <input type="text" class="input" name ="lst_name" placeholder="Last Name" required>
+                    </Span>
+                </div>
+                <div class="display">
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                    <input type="email" class ="input1" name="email" placeholder="Email Address" required>
+                </div>
+                <div class="display">
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    <input type = "text" class = "input1" name="address" placeholder="Address" required>
+                </div>
+                <div class="display">
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                    <input type = "text" class = "input1" name="contact" placeholder="Contact number" required>
+                </div>
+                <div class="drop">
+                    <label >Select your Stream : </label>
+                    <select class="drop" name="stream">
+                        <option>Streams</option>
+                        <option value="BCA">BCA</option>
+                        <option value="BBA">BBA</option>
+                        <option value="Msc">MSc</option>
+                        <option value="Btech">Btech</option>
+                    </select>
+                </div>
+                <div class="drop1">
+                    <p class="drp">Which Cultural Club you want to join?? </p>
+                    <select class="drop1" name="clubs">
+                        <option>Clubs</option>
+                        <option value="Art Club">Art Club : Imagine Arts</option>
+                        <option value="Debate Club">Debate Club : Taking Heads</option>
+                        <option value ="Music Club">Music Club : Moving Beats</option>
+                        <option value="Dance Club">Dance Club : Jackson</option>
+                        <option value ="Sports Club">Sports Club : Star Athletes</option>
+                    </select>
+                </div>
+                <div >
+                    <input type="submit" class ="button" value="register">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

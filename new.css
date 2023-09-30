@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    margin: 50px auto 0;
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: -2px -2px 2px rgb(192, 192, 192), 15px 15px 15px rgba(0, 0, 0, 0.705);
+}
+
+.body {
+    background-image: url(FUSION\ FIESTA.png);
+    font-size: 14px;
+    background-size: cover;
+    background-position: center;
+}
+
+.container h1 {
+    text-align: center;
+    padding: 30px;
+}
+
+.display {
+    width: 90%;
+    position: relative;
+    margin: 20px auto;
+}
+
+.input {
+    width: 45%;
+    padding: 8px 0 8px 40px;
+    border-radius: 30px;
+}
+
+.display span {
+    margin-left: 35px;
+}
+
+.input1 {
+    width: 100%;
+    padding: 8px 0 8px 40px;
+    border-radius: 30px;
+}
+
+.display i {
+    position: absolute;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.drop {
+    padding: 3px 0 3px;
+    font-size: 20px;
+    border-radius: 30px;
+    margin: 5px auto 0;
+    text-align: center;
+    position: relative;
+}
+
+.drop1 {
+    padding: 3px 0 3px;
+    font-size: 20px;
+    border-radius: 30px;
+    margin: 5px auto 0;
+    text-align: center;
+}
+
+.drp {
+    text-align: center;
+}
+
+.button {
+    padding: 3px 0 3px;
+    font-size: 20px;
+    border-radius: 30px;
+    width:100%;
+    margin: 5px auto 0;
+    cursor: pointer;
+    text-align: center;
+    transition: 0.5s;
+}
+.button:hover{
+    background-color: rgb(55, 255, 19);
+    color: rgb(255, 255, 255);
+}
+.logo{
+    width: 100px;
+    margin-left: 170px;
+}
