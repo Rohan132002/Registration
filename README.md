@@ -1,1 +1,1 @@
-# www.google.com Registration
+# Registration form for college to join several cultural clubs 
